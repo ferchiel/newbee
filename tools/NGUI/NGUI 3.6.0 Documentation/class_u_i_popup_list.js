@@ -1,0 +1,37 @@
+var class_u_i_popup_list =
+[
+    [ "Position", "class_u_i_popup_list.html#a6572641c8664affc68da68699554268a", [
+      [ "Auto", "class_u_i_popup_list.html#a6572641c8664affc68da68699554268aa06b9281e396db002010bde1de57262eb", null ],
+      [ "Above", "class_u_i_popup_list.html#a6572641c8664affc68da68699554268aa5b469fd01889ec12f1e84c6e66829fc1", null ],
+      [ "Below", "class_u_i_popup_list.html#a6572641c8664affc68da68699554268aae59dd8d25c0b6bb6697eac0617ccd412", null ]
+    ] ],
+    [ "Close", "class_u_i_popup_list.html#a1ec176ab2f25b27613068947f12144d0", null ],
+    [ "LegacyEvent", "class_u_i_popup_list.html#a5d6b4e619e03b2bc566c796d5c077475", null ],
+    [ "TriggerCallbacks", "class_u_i_popup_list.html#a5e35ab592b5cf2a3f1333363c1b149c1", null ],
+    [ "atlas", "class_u_i_popup_list.html#ad219b171b12939007e9c972de0d3ed3e", null ],
+    [ "backgroundColor", "class_u_i_popup_list.html#ab46f0f9c66e45df18f59882858c29769", null ],
+    [ "backgroundSprite", "class_u_i_popup_list.html#a72b8efe8a7ebaa7aa4e986319aa81043", null ],
+    [ "bitmapFont", "class_u_i_popup_list.html#aa32f904f8c08838e66aa8622737ec70b", null ],
+    [ "current", "class_u_i_popup_list.html#aafaf84bc4f8df8adcb28f4f8624e9e5d", null ],
+    [ "fontSize", "class_u_i_popup_list.html#abed9f0ecfd44c0e1b4beff933dfc657c", null ],
+    [ "fontStyle", "class_u_i_popup_list.html#a5cb5ac58d0df75628cd7a2ca7bf24211", null ],
+    [ "highlightColor", "class_u_i_popup_list.html#ae607c22ae153794f43ae1f577a40567e", null ],
+    [ "highlightSprite", "class_u_i_popup_list.html#a17df67dffa5997365d1da4635878e0ae", null ],
+    [ "isAnimated", "class_u_i_popup_list.html#add6d18f6d3aeb77aaf506d6c206674a8", null ],
+    [ "isLocalized", "class_u_i_popup_list.html#a716f2a347d6c309ad0f3c17ec4ed767e", null ],
+    [ "items", "class_u_i_popup_list.html#a92913c14d5b192e19e8ec651d5aad2e6", null ],
+    [ "onChange", "class_u_i_popup_list.html#ac6b42329c2eb0823b3a8dbfe9e0c9c14", null ],
+    [ "padding", "class_u_i_popup_list.html#aa91fb915060da2b0da3ff71fd70d7cce", null ],
+    [ "position", "class_u_i_popup_list.html#acb4c502c6955a09c9f97f95272a1b578", null ],
+    [ "textColor", "class_u_i_popup_list.html#a6572c9bd436573fdaf8066b1c5ae43d5", null ],
+    [ "trueTypeFont", "class_u_i_popup_list.html#af54200915005e060abea2e18d8d9c628", null ],
+    [ "activeFontScale", "class_u_i_popup_list.html#a70ee1b0487f2318e9faf31ffed3238bf", null ],
+    [ "activeFontSize", "class_u_i_popup_list.html#a01fe8576bef058dc6958290c69d66add", null ],
+    [ "ambigiousFont", "class_u_i_popup_list.html#ab4ec32a4adbc11b982673959fd578fd0", null ],
+    [ "handleEvents", "class_u_i_popup_list.html#a1f342b7d51592125e7406e2da4ca9581", null ],
+    [ "isOpen", "class_u_i_popup_list.html#a359eb61725ab1d61d90a751492d41df2", null ],
+    [ "isValid", "class_u_i_popup_list.html#a0053af1794f24a07586ddd25a6f9319d", null ],
+    [ "onSelectionChange", "class_u_i_popup_list.html#a50f3413e3144d18aa5febb3fb2348868", null ],
+    [ "selection", "class_u_i_popup_list.html#a69e68ab284ce3f3c581a9e11256e99c6", null ],
+    [ "value", "class_u_i_popup_list.html#a459e5f7d36332184d07806ad14282703", null ]
+];

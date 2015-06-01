@@ -1,0 +1,25 @@
+var struct_free_type_1_1_f_t___glyph_slot_rec =
+[
+    [ "_internal", "struct_free_type_1_1_f_t___glyph_slot_rec.html#a6e7e3b9a492a9d44463397719aae6a77", null ],
+    [ "advance", "struct_free_type_1_1_f_t___glyph_slot_rec.html#a43b825d15eeacda143085bfc245ee9d8", null ],
+    [ "bitmap", "struct_free_type_1_1_f_t___glyph_slot_rec.html#ad795b8e8963a6fda8c4eeffe2f9189f0", null ],
+    [ "bitmap_left", "struct_free_type_1_1_f_t___glyph_slot_rec.html#a59385baa82f4cbb511921c73b68b433a", null ],
+    [ "bitmap_top", "struct_free_type_1_1_f_t___glyph_slot_rec.html#ac5dedfdde7f74db2207ed49e09d688b2", null ],
+    [ "control_data", "struct_free_type_1_1_f_t___glyph_slot_rec.html#a55e01b179d9a2799858bbee9893ef261", null ],
+    [ "control_len", "struct_free_type_1_1_f_t___glyph_slot_rec.html#afa71252865fedc0c7df9002ceebe5c7a", null ],
+    [ "face", "struct_free_type_1_1_f_t___glyph_slot_rec.html#aa06350c4ba2c7f5443f8982515783c2a", null ],
+    [ "format", "struct_free_type_1_1_f_t___glyph_slot_rec.html#af272b448579a59cc6132bc50bc093f2d", null ],
+    [ "generic", "struct_free_type_1_1_f_t___glyph_slot_rec.html#aff4436cf2d081644f0a6ced547546299", null ],
+    [ "library", "struct_free_type_1_1_f_t___glyph_slot_rec.html#ab987d4f76df477a6f8e83998312eb7de", null ],
+    [ "linearHoriAdvance", "struct_free_type_1_1_f_t___glyph_slot_rec.html#af973228bbd83faea61a0afbd18505139", null ],
+    [ "linearVertAdvance", "struct_free_type_1_1_f_t___glyph_slot_rec.html#aea4476762f3f77899b0be7d83c8f7b34", null ],
+    [ "lsb_delta", "struct_free_type_1_1_f_t___glyph_slot_rec.html#a35d5cdbbb7562c2376b3a067d195f375", null ],
+    [ "metrics", "struct_free_type_1_1_f_t___glyph_slot_rec.html#a066cdf3da1e3b76eecf0f090566978f3", null ],
+    [ "next", "struct_free_type_1_1_f_t___glyph_slot_rec.html#acfe15d3cd8333c26013a68d6030b8017", null ],
+    [ "num_subglyphs", "struct_free_type_1_1_f_t___glyph_slot_rec.html#af3224000d47368177c5597944509822c", null ],
+    [ "other", "struct_free_type_1_1_f_t___glyph_slot_rec.html#a79d17c7b1b90795f098e2068b2bbf350", null ],
+    [ "outline", "struct_free_type_1_1_f_t___glyph_slot_rec.html#a4353f91e905e697cf079aa0bd422ee45", null ],
+    [ "reserved", "struct_free_type_1_1_f_t___glyph_slot_rec.html#a8b16155a4d95e6865298e3684e922e58", null ],
+    [ "rsb_delta", "struct_free_type_1_1_f_t___glyph_slot_rec.html#a8980173d44ad6ab8c8fb97f539a9095f", null ],
+    [ "subglyphs", "struct_free_type_1_1_f_t___glyph_slot_rec.html#a336390fe55076fc089e4e8dbfeaf08d6", null ]
+];

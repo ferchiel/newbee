@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['range',['range',['../class_pan_with_mouse.html#aad924f4aba1573be025549c48b7d1c0b',1,'PanWithMouse']]],
+  ['rangedistance',['rangeDistance',['../class_u_i_camera.html#a43b61d474b7bf64397a0dde3b48bf538',1,'UICamera']]],
+  ['rect',['rect',['../class_u_i_rect_1_1_anchor_point.html#aaca44cfc3b0f997c77385f150b1880cf',1,'UIRect::AnchorPoint']]],
+  ['rectheight',['rectHeight',['../class_n_g_u_i_text.html#a5fde59c0760e49ed8261343c5c0546c8',1,'NGUIText']]],
+  ['rectwidth',['rectWidth',['../class_n_g_u_i_text.html#ac444e71739f52277a1df1577b3b4d04f',1,'NGUIText']]],
+  ['relative',['relative',['../class_u_i_rect_1_1_anchor_point.html#a052da49144f52fdedc8da0de0ac992c5',1,'UIRect::AnchorPoint']]],
+  ['relativeoffset',['relativeOffset',['../class_u_i_anchor.html#a24cd8ce0e39ce50b9ff064a08ca9bcc0',1,'UIAnchor']]],
+  ['relativesize',['relativeSize',['../class_u_i_stretch.html#aece8549fc67a8851d10d7b7fd342a807',1,'UIStretch']]],
+  ['renderqueue',['renderQueue',['../class_u_i_panel.html#af09a819fead3a376caf3b379dfa6d784',1,'UIPanel']]],
+  ['reparenttarget',['reparentTarget',['../class_u_i_drag_drop_container.html#a48d2e89e388ae36245579fc592ca3796',1,'UIDragDropContainer']]],
+  ['reserved',['reserved',['../struct_free_type_1_1_f_t___glyph_slot_rec.html#a8b16155a4d95e6865298e3684e922e58',1,'FreeType::FT_GlyphSlotRec']]],
+  ['resetifdisabled',['resetIfDisabled',['../class_u_i_play_tween.html#a5b0fcbcbc3c97ff232176b68301f8dab',1,'UIPlayTween']]],
+  ['resetonplay',['resetOnPlay',['../class_u_i_play_animation.html#abd2f2ed7d50c3dc96952f8a61e15817e',1,'UIPlayAnimation.resetOnPlay()'],['../class_u_i_play_tween.html#a020e266016053125fc564ea00ea061a0',1,'UIPlayTween.resetOnPlay()']]],
+  ['restriction',['restriction',['../class_u_i_drag_drop_item.html#a3fd2d60204d34a077c828d95cba6b66b',1,'UIDragDropItem']]],
+  ['restrictwithinpanel',['restrictWithinPanel',['../class_u_i_drag_object.html#affafd3bbecf51eea661e841edc6f0686',1,'UIDragObject.restrictWithinPanel()'],['../class_u_i_scroll_view.html#a4d59cdb5e18519c39890c8d15611f4b5',1,'UIScrollView.restrictWithinPanel()']]],
+  ['rightanchor',['rightAnchor',['../class_u_i_rect.html#a7a14ea23fb356edb13898308414d42a0',1,'UIRect']]],
+  ['righttype',['rightType',['../class_u_i_basic_sprite.html#a82f4189c47a87d3839c49edd3ecd2af9',1,'UIBasicSprite']]],
+  ['root',['root',['../class_u_i_drag_drop_root.html#ab53a0a265564faf5ceb961aac50d7eda',1,'UIDragDropRoot']]],
+  ['rootforbounds',['rootForBounds',['../class_u_i_draggable_camera.html#a19b0622bc6a65b9e9fbcd1f5a41b6ecc',1,'UIDraggableCamera']]],
+  ['rotateduvs',['rotatedUVs',['../class_n_g_u_i_text_1_1_glyph_info.html#a8a3fb0f7a13fa9c352f01f2169d532a2',1,'NGUIText::GlyphInfo']]],
+  ['rotateplacedobject',['rotatePlacedObject',['../class_example_drag_drop_surface.html#aaa7fb7375d6722466763e7b460b2fa4a',1,'ExampleDragDropSurface']]],
+  ['rotationspersecond',['rotationsPerSecond',['../class_spin.html#ad7691cbb41b4a8ae4c5f9edc99681e4e',1,'Spin']]],
+  ['rows',['rows',['../struct_free_type_1_1_f_t___bitmap.html#afd31f0ec8dccb78841437e74ece93cb3',1,'FreeType::FT_Bitmap']]],
+  ['rsb_5fdelta',['rsb_delta',['../struct_free_type_1_1_f_t___glyph_slot_rec.html#a8980173d44ad6ab8c8fb97f539a9095f',1,'FreeType::FT_GlyphSlotRec']]],
+  ['runonlyonce',['runOnlyOnce',['../class_u_i_anchor.html#a4fbc6a861519c064e82b981fa881f63e',1,'UIAnchor.runOnlyOnce()'],['../class_u_i_stretch.html#a4460c721609bf0d1062ca8dbbd200d97',1,'UIStretch.runOnlyOnce()']]]
+];

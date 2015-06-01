@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['icon',['icon',['../class_u_i_item_slot.html#ac62cac3606161031a0a7625ed6d6923d',1,'UIItemSlot']]],
+  ['iconatlas',['iconAtlas',['../class_inv_base_item.html#a47f0074438550c2f587ac93dde9cc526',1,'InvBaseItem.iconAtlas()'],['../class_inv_database.html#ac91d85d3b5a4ce11e0c06f79532515b2',1,'InvDatabase.iconAtlas()']]],
+  ['iconname',['iconName',['../class_inv_base_item.html#a929f74a3c224b80404f61463b24fd8da',1,'InvBaseItem']]],
+  ['id',['id',['../class_inv_stat.html#a220ee83b342fde0abe3d68dd671519c2',1,'InvStat']]],
+  ['id16',['id16',['../class_inv_base_item.html#a955588e196071ad72312496af4875086',1,'InvBaseItem']]],
+  ['ifdisabledonplay',['ifDisabledOnPlay',['../class_u_i_play_animation.html#a391d626850283ed3b0ced782bae0b2d4',1,'UIPlayAnimation.ifDisabledOnPlay()'],['../class_u_i_play_tween.html#a24e2ad0283d4eca2117c1e16cef8bf0b',1,'UIPlayTween.ifDisabledOnPlay()']]],
+  ['ignoretimescale',['ignoreTimeScale',['../class_lag_position.html#ab99630c4b2dc1864f89a41fb028897fc',1,'LagPosition.ignoreTimeScale()'],['../class_lag_rotation.html#aa1487a29dde423c2cc0c9343b3e3c34c',1,'LagRotation.ignoreTimeScale()'],['../class_spin.html#a58ac15d4857b48d775a38aa79e9b4439',1,'Spin.ignoreTimeScale()'],['../class_spring_position.html#a96740a851144b764a6cef9ce5f5eeb2a',1,'SpringPosition.ignoreTimeScale()'],['../class_u_i_tweener.html#a70109184cbfb855672178546c041f978',1,'UITweener.ignoreTimeScale()'],['../class_u_i2_d_sprite_animation.html#aa27f89a77ccdc14376ed10f82e97fd9d',1,'UI2DSpriteAnimation.ignoreTimeScale()']]],
+  ['includechildren',['includeChildren',['../class_u_i_button_message.html#a4faf3e5cfd5713ade31d68503c796227',1,'UIButtonMessage.includeChildren()'],['../class_u_i_play_tween.html#a723dcbc852edfe53697136179b455111',1,'UIPlayTween.includeChildren()']]],
+  ['index',['index',['../class_b_m_glyph.html#a184e11ee043e611b52501888332a1d01',1,'BMGlyph']]],
+  ['initialsize',['initialSize',['../class_u_i_stretch.html#a1a9f3070f4477a7d0305ebf6050c6451',1,'UIStretch']]],
+  ['inputhasfocus',['inputHasFocus',['../class_u_i_camera.html#a4d742ded3a5266465a0a4b225cca315c',1,'UICamera']]],
+  ['inputtype',['inputType',['../class_u_i_input.html#a41f759278e488476f029320a7db3c4f3',1,'UIInput']]],
+  ['instance',['instance',['../class_u_i_cursor.html#ac7a97acaa89d4ef9e00220cc42d2fe82',1,'UICursor.instance()'],['../class_n_g_u_i_transform_inspector.html#abd26a040b3ef0187ff1b1735aface6e6',1,'NGUITransformInspector.instance()'],['../class_sprite_selector.html#a792b87a88057d206958574d3c6d41279',1,'SpriteSelector.instance()'],['../class_u_i_atlas_inspector.html#ad620ad857cddb75835760c347a122a6f',1,'UIAtlasInspector.instance()'],['../class_u_i_atlas_maker.html#a002435b1316e7dc86ce8773f24832cb2',1,'UIAtlasMaker.instance()'],['../class_u_i_draw_call_viewer.html#a701955ff6a9a02216976c6c3bd94465f',1,'UIDrawCallViewer.instance()'],['../class_u_i_panel_tool.html#afe328fc35abeee71f158db70e436fbbc',1,'UIPanelTool.instance()'],['../class_u_i_prefab_tool.html#ac9b08e0c1c9e5a4a02e209166f002873',1,'UIPrefabTool.instance()'],['../class_u_i_widget_inspector.html#a962e6538a91eb7a6ea593764f248190c',1,'UIWidgetInspector.instance()']]],
+  ['instanttween',['instantTween',['../class_u_i_toggle.html#a8a98e735163a796af2577b57d55858be',1,'UIToggle']]],
+  ['iosdragemulation',['iOSDragEmulation',['../class_u_i_scroll_view.html#a786c4be2d93f1f221a1dbd4aef975dd4',1,'UIScrollView']]],
+  ['isanimated',['isAnimated',['../class_u_i_popup_list.html#add6d18f6d3aeb77aaf506d6c206674a8',1,'UIPopupList']]],
+  ['isdirty',['isDirty',['../class_u_i_draw_call.html#a6a18a6d78eb236d7b4086d360afa7f82',1,'UIDrawCall']]],
+  ['isdragging',['isDragging',['../class_u_i_camera.html#a2c23aace6f230d1b49c719d1b4d906e6',1,'UICamera']]],
+  ['ishorizontal',['IsHorizontal',['../class_u_i_rect_editor.html#acf37d3e3cb034d75083daff59acbd5c5',1,'UIRectEditor']]],
+  ['islocalized',['isLocalized',['../class_u_i_popup_list.html#a716f2a347d6c309ad0f3c17ec4ed767e',1,'UIPopupList']]],
+  ['isorthographic',['isOrthographic',['../class_u_i_snapshot_point.html#aa82a5ae934599fcda7d6e243fa36e759',1,'UISnapshotPoint']]],
+  ['itemids',['itemIDs',['../class_equip_items.html#a090804832d01c90aecfadd2fbb2f34aa',1,'EquipItems']]],
+  ['itemlevel',['itemLevel',['../class_inv_game_item.html#aa132ff16c490b26fdef58480f31359ef',1,'InvGameItem']]],
+  ['items',['items',['../class_inv_database.html#a1d7c659119b09e06a345b9ee2a77a12c',1,'InvDatabase.items()'],['../class_u_i_popup_list.html#a92913c14d5b192e19e8ec651d5aad2e6',1,'UIPopupList.items()']]],
+  ['itemsize',['itemSize',['../class_u_i_wrap_content.html#a629d74554a37537366fdcd3ab15f1180',1,'UIWrapContent']]]
+];

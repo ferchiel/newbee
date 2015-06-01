@@ -1,0 +1,28 @@
+var class_n_g_u_i_json =
+[
+    [ "eatWhitespace", "class_n_g_u_i_json.html#a25abfb0c00739fc69919dc76227c45f2", null ],
+    [ "getLastErrorIndex", "class_n_g_u_i_json.html#a1bd228c55e244f4c132c05961173244a", null ],
+    [ "getLastErrorSnippet", "class_n_g_u_i_json.html#af91360ca10b8b8555009eef95f2a4454", null ],
+    [ "getLastIndexOfNumber", "class_n_g_u_i_json.html#a001e0f6c83a849ca36c4d433d2ffb8e0", null ],
+    [ "jsonDecode", "class_n_g_u_i_json.html#ad64421aa90ecf47b619baa5c502b537c", null ],
+    [ "jsonEncode", "class_n_g_u_i_json.html#a72b878eb5e662ae0e814c2aff4b15896", null ],
+    [ "lastDecodeSuccessful", "class_n_g_u_i_json.html#ad157c26d1f1295554e99b96dabf9c50c", null ],
+    [ "LoadSpriteData", "class_n_g_u_i_json.html#a66f7e39408ff6e0b2cfbb863820b45c3", null ],
+    [ "LoadSpriteData", "class_n_g_u_i_json.html#ae964c6e04cacadf2e90170bacc079c2f", null ],
+    [ "lookAhead", "class_n_g_u_i_json.html#ae9de46ccee4f173e2acbb7345a885b64", null ],
+    [ "nextToken", "class_n_g_u_i_json.html#aa222b04a8cc1864c31741fd24542945a", null ],
+    [ "parseArray", "class_n_g_u_i_json.html#a676b917e8c85d12e272e4a08c2ffbf01", null ],
+    [ "parseNumber", "class_n_g_u_i_json.html#a649b5a4bccf9d0e62464fc0a1c0d2fd6", null ],
+    [ "parseObject", "class_n_g_u_i_json.html#a720778ed63e37a371f6276716d04d325", null ],
+    [ "parseString", "class_n_g_u_i_json.html#a3117c4797e60d91f7a35c09ffcffd32f", null ],
+    [ "parseValue", "class_n_g_u_i_json.html#a14303fd4983125c7e9f34a74cac1419a", null ],
+    [ "serializeArray", "class_n_g_u_i_json.html#a18444b0b03ce458aad0f5c9db96981f5", null ],
+    [ "serializeDictionary", "class_n_g_u_i_json.html#a148a4dc5d66c5be1a7e0ff448342797d", null ],
+    [ "serializeNumber", "class_n_g_u_i_json.html#ac0a70971867a06d29fa013d539e1f817", null ],
+    [ "serializeObject", "class_n_g_u_i_json.html#ab55063acb2aae20a72a1946d22a88c1e", null ],
+    [ "serializeObjectOrArray", "class_n_g_u_i_json.html#a8f1be986676e8af176b3ba3a1230d4b2", null ],
+    [ "serializeString", "class_n_g_u_i_json.html#adceabb7bc342ce4f7ee59dc638b12d5a", null ],
+    [ "serializeValue", "class_n_g_u_i_json.html#a3046e77fe91a396841472959a6d91a2b", null ],
+    [ "lastDecode", "class_n_g_u_i_json.html#a4b14e07f433fb92c4e0014186913d983", null ],
+    [ "lastErrorIndex", "class_n_g_u_i_json.html#a88f5aba07be8c1c9c4430984fb4a4c03", null ]
+];

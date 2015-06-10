@@ -180,8 +180,6 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
-     <Compile Include="Assets\buffer.cs" />
-     <Compile Include="Assets\network.cs" />
      <Compile Include="Assets\protobuf-net\BclHelpers.cs" />
      <Compile Include="Assets\protobuf-net\BufferExtension.cs" />
      <Compile Include="Assets\protobuf-net\BufferPool.cs" />
@@ -270,6 +268,14 @@
      <Compile Include="Assets\protobuf-net\ServiceModel\XmlProtoSerializer.cs" />
      <Compile Include="Assets\protobuf-net\SubItemToken.cs" />
      <Compile Include="Assets\protobuf-net\WireType.cs" />
+     <Compile Include="Assets\script\NetworkMgr.cs" />
+     <Compile Include="Assets\script\network\Network.cs" />
+     <Compile Include="Assets\script\network\PackageDispatcher.cs" />
+     <Compile Include="Assets\script\network\PackageRegister.cs" />
+     <Compile Include="Assets\script\network\RecvBuffer.cs" />
+     <Compile Include="Assets\script\network\SendBuffer.cs" />
+     <Compile Include="Assets\script\package\MsgId.cs" />
+     <Compile Include="Assets\script\package\c2s.cs" />
      <Compile Include="Assets\test.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.6.8.txt" />

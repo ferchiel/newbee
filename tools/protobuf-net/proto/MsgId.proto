@@ -1,0 +1,10 @@
+enum MSG
+{
+	Msg_id_error = 0x00000000;
+
+
+	Login_request = 0x00001001;
+	Login_reponse = 0x00001002;
+	Create_request = 0x00002001;
+	Create_reponse = 0x00002002;
+}

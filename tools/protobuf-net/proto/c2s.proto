@@ -1,0 +1,3 @@
+message HeartBeat {
+  required uint32 id = 1;
+}

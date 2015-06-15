@@ -268,9 +268,9 @@
      <Compile Include="Assets\protobuf-net\ServiceModel\XmlProtoSerializer.cs" />
      <Compile Include="Assets\protobuf-net\SubItemToken.cs" />
      <Compile Include="Assets\protobuf-net\WireType.cs" />
-     <Compile Include="Assets\script\NetworkMgr.cs" />
+     <Compile Include="Assets\script\handler\TestHandler.cs" />
+     <Compile Include="Assets\script\network\Buffer.cs" />
      <Compile Include="Assets\script\network\Network.cs" />
-     <Compile Include="Assets\script\network\PackageDispatcher.cs" />
      <Compile Include="Assets\script\network\PackageRegister.cs" />
      <Compile Include="Assets\script\network\RecvBuffer.cs" />
      <Compile Include="Assets\script\network\SendBuffer.cs" />

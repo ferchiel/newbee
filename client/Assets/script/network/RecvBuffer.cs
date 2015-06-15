@@ -1,107 +1,87 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 
 namespace Assets.script.network
 {
-    class RecvBuffer
+    class RecvBuffer : Buffer
     {
-        private byte[] _data = null;
-        private int _read = 0;
-        private int _write = 0;
-        public int read
-        {
-            get
-            {
-                return _read;
-            }
-            set
-            {
-                _read = value;
-            }
-        }
-        public int write
-        {
-            get
-            {
-                return _write;
-            }
-            set
-            {
-                _write = value;
-            }
-        }
+        private const int kMsgIdError = -1;
+        private const int kMsgLengthError = -1;
+        private int _mid = kMsgIdError;
+        private int _length = kMsgLengthError;
 
         public RecvBuffer(int sz)
+            : base(sz)
         {
-            _data = new byte[sz];
+
         }
 
-        public byte[] data()
+        public void dispatch()
         {
-            return _data;
-        }
-
-        public int free()
-        {
-            return _data.Length - write;
-        }
-
-        public int avail()
-        {
-            return write - read;
-        }
-
-        public void reset()
-        {
-            write = read = 0;
-        }
-
-        public int size()
-        {
-            return _data.Length;
-        }
-
-        public void resize(int min)
-        {
-            int tar = _data.Length * 2;
-            while (tar < min)
-                tar *= 2;
-
-            try
+            if (kMsgIdError == _mid)
             {
-                Array.Resize<byte>(ref _data, tar);
+                // get mid
+                if (avail() < sizeof(int)) // 
+                    return;
+
+                if (kMsgIdError == (_mid = BitConverter.ToInt32(get(sizeof(int)), 0)))
+                    return;
             }
-            catch (Exception e)
+
+            if (kMsgLengthError == _length)
             {
-                Console.WriteLine(e.Message);
+                // get package length
+                if (avail() < sizeof(int))
+                    return;
+
+                if (kMsgLengthError == (_length = BitConverter.ToInt32(get(sizeof(int)), 0)))
+                    return;
+            }
+
+            // wait net stream
+            int readsz = avail();
+            if (readsz < _length)
                 return;
-            }
+
+            byte[] packagedata = get(readsz);
+            PackageRegister.PackageData packageAssist = PackageRegister.inst.get(_mid);
+            global::ProtoBuf.IExtensible protoPackage = (global::ProtoBuf.IExtensible)
+                packageAssist.pack.Assembly.CreateInstance(packageAssist.pack.FullName);
+
+            packageAssist.handler(protoPackage, this);
         }
 
-        public byte[] get(int sz)
-        {
-            if (avail() < sz)
-                return null;
 
-            byte[] ret = new byte[sz];
-            Buffer.BlockCopy(_data, read, ret, 0, sz);
-            read += sz;
-            if (avail() == 0)
-                reset();
-            return ret;
-        }
-
-        public bool set(byte[] source, int sz)
+        // base-128
+        private int encode_base128(byte[] buf, UInt64 x)
         {
-            if (free() < sz)
+            int n = 0;
+            while (x > 127)
             {
-                resize(_data.Length + sz);
+                buf[n++] = (byte)(0x80 | (x & 0x7F));
+                x >>= 7;
             }
-            Buffer.BlockCopy(source, 0, _data, write, sz);
-            write += sz;
-            return true;
+            buf[n++] = (byte)x;
+            return n;
+        }
+
+        private UInt64 decode_base128(byte[] buf)
+        {
+            int shift, n = 0;
+            UInt64 x = 0, c;
+            for (shift = 0; shift < 64; shift += 7)
+            {
+                c = (UInt64)buf[n++];
+                x |= (c & 0x7F) << shift;
+                if ((c & 0x80) == 0)
+                {
+                    break;
+                }
+            }
+            return x;
         }
     }
 }

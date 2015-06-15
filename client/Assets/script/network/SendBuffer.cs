@@ -7,20 +7,24 @@ using System.Text;
 
 namespace Assets.script.network
 {
-    class SendBuffer
+    class SendBuffer : Buffer
     {
         private readonly MemoryStream _ms = new MemoryStream();
 
-        public void push<T>(int msgId, T inst)
+        public SendBuffer(int sz)
+            : base(sz)
         {
-            byte[] id = BitConverter.GetBytes(msgId);
-            _ms.Write(id, 0, id.Length);
-            Serializer.SerializeWithLengthPrefix<T>(_ms, inst, PrefixStyle.Base128);
+
         }
 
-        public byte[] get()
+        public void push<T>(int mid, T inst)
         {
-            return _ms.GetBuffer();
+            Serializer.Serialize<T>(_ms, inst);
+            int length = (int) _ms.Length;
+            set(BitConverter.GetBytes(length), sizeof(int));
+            set(BitConverter.GetBytes(mid), sizeof(int));
+            set(_ms.GetBuffer(), length);
+            _ms.Flush();
         }
     }
 }

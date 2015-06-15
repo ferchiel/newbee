@@ -9,7 +9,7 @@ namespace Castle.Network
 {
     class Network
     {
-        private static const int kRecvBufferSize = 1024;
+        private const int kRecvBufferSize = 1024;
         private TcpClient _client = null;
         private NetworkStream _ns = null;
         private RecvBuffer _buffer = new RecvBuffer(kRecvBufferSize);
@@ -39,9 +39,9 @@ namespace Castle.Network
                 return;
             }
             int readCt = _ns.EndRead(ar);
-            if (readCt > 0)
-                dispatch();
             _buffer.write += readCt;
+            if (readCt > 0)
+                _buffer.dispatch();
             if (_buffer.free() < 10)
                 _buffer.resize(0);
             _ns.BeginRead(_buffer.data(), _buffer.write, _buffer.free(), _onReceive, this);
@@ -49,7 +49,7 @@ namespace Castle.Network
 
         public void send(SendBuffer buffer)
         {
-            this.send(buffer.get());
+            this.send(buffer.data());
         }
 
         public void send(byte[] d)
@@ -60,12 +60,6 @@ namespace Castle.Network
         private void _onSend(IAsyncResult ar)
         {
             _ns.EndWrite(ar);
-        }
-
-        private bool dispatch()
-        {
-
-            return true;
         }
     }
 }
